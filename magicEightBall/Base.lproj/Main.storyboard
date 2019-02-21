@@ -25,6 +25,9 @@
                                 <rect key="frame" x="16" y="560" width="343" height="67"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
                                 <state key="normal" title="Ask The 8-Ball"/>
+                                <connections>
+                                    <action selector="ballButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEP-sX-5dR"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRc-w0-EVh">
                                 <rect key="frame" x="40" y="178" width="295" height="302"/>
@@ -55,6 +58,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="eightBallImage" destination="dRc-w0-EVh" id="fmk-HZ-Ahj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
