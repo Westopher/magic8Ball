@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         updateBall()
         
     }
-
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        updateBall()
+    }
     @IBAction func ballButtonPressed(_ sender: UIButton) {
         updateBall()
     }
